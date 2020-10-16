@@ -10,7 +10,7 @@ perl:
 addons:
   apt:
    packages:
-   - rabbit
+   - rabbitmq-server
 
 services:
   - rabbitmq
